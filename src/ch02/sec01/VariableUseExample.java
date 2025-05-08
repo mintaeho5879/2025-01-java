@@ -18,7 +18,7 @@ public class VariableUseExample {
         // (11) 연산의 결과를 printle 이 콘솔에 출력한다.
 
         int totalMinute = minute + hour * 60; // 185
-        System.out.println("총 " + totalMinute + "분");
+        System.out.println("총" + totalMinute + "분");
     }
 }
 
