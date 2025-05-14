@@ -3,7 +3,7 @@ package other;
 public class ScopeStudy {
     /*
     스코프 : 변수가 살아있는 범위
-            변수가 선언이 되면 자기 자신을 감싸고 있는 중괄화 안에서만 살아있다.
+            변수가 선언이 되면 자기 자신을 감싸고 있는 중괄호 안에서만 살아있다.
             즉, 중괄호를 벗어나면 죽습니다.
          */
     public static void main(String[] args) {
