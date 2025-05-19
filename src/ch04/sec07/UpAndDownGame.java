@@ -16,7 +16,7 @@ public class UpAndDownGame {
                 System.out.println("up!");
             } else {
                 System.out.println("정답!");
-                break;
+                break; // break 를 감싸고 있는 가장 가까운 반복문을 빠져나온다.
             }
         }
         System.out.println("answer: " + answer);
